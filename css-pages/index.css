@@ -1,66 +1,66 @@
-.background-section{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    flex-direction:column;
-    text-align:center;
+.background-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
     height: 500px;
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
-    url('../images/bg-image.jpg') no-repeat center/cover;
-    color:white;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('../images/bg-image.jpg') no-repeat center/cover;
+    color: white;
 }
 
-.background-section button{
-    padding:12px;
-    border:none;
-    background:#e89656;
-    color:white;
-    font-size:16px;
-    cursor:pointer;
-    border-radius:5px;
-    transition:0.3s;
+.background-section button {
+    padding: 12px;
+    border: none;
+    background: #e89656;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
 }
 
-.background-section h1{
-    font-size:50px;
+.background-section h1 {
+    font-size: 50px;
 }
 
-.background-section p{
-    margin:15px 0;
-    font-size:18px;
+.background-section p {
+    margin: 15px 0;
+    font-size: 18px;
 }
 
-.hero-section-main-container{
+.hero-section-main-container {
     display: flex;
     flex-direction: row;
     margin: 100px;
 }
 
-.hero-section-main-container img{
+.hero-section-main-container img {
     border-radius: 10px;
 }
 
-.info-main-container{
+.info-main-container {
     margin-top: 100px;
 }
 
-.info-main-container span{
+.info-main-container span {
     font-size: 50px;
     font-weight: bold;
 }
 
-.info-main-container p{
+.info-main-container p {
     text-align: justify;
     line-height: 1.9;
 }
 
-.hero-section-img-container{
+.hero-section-img-container {
     padding: 20px;
 }
 
-/* deatination */
+/* destination */
 
-.destinations-section{
+.destinations-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -69,40 +69,40 @@
     font-weight: 700;
 }
 
-.destinations-section-heading{
+.destinations-section-heading {
     font-size: 40px;
 }
 
-.destinations-section-container{
+.destinations-section-container {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 20px;
 }
 
-.destinations-section-items-1{
+.destinations-section-items-1 {
     margin-top: 10px;
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../images/kokan-image.jpg');   
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/kokan-image.jpg');
     background-size: cover;
     background-position: center;
     border-radius: 20px;
-    height: 400px;
+    height: 355px;
     width: 300px;
 }
 
-.destinations-section-items-sub-part-1{
-     margin-top: 10px;
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../images/karnataka-image.jpg');   
+.destinations-section-items-sub-part-1 {
+    margin-top: 10px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/karnataka-image.jpg');
     background-size: cover;
     background-position: center;
     border-radius: 20px;
     height: 190px;
     width: 300px;
-    
+
 }
 
-.destinations-section-items-sub-part-2{
-   margin-top: 10px;
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../images/kochi.jpg');   
+.destinations-section-items-sub-part-2 {
+    margin-top: 10px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/kochi.jpg');
     background-size: cover;
     background-position: center;
     border-radius: 20px;
@@ -110,44 +110,75 @@
     width: 300px;
 }
 
-.destinations-section-items-sub-part-3{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../images/jaipur.jpg');
+.destinations-section-items-sub-part-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/jaipur.jpg');
     background-position: center;
     background-size: cover;
     border-radius: 20px;
-     height: 192px;
+    height: 192px;
     width: 300px;
     margin-top: 10px;
 }
 
-.destinations-section-items-sub-part-4{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../images/netherland-image.jpg');
+.destinations-section-items-sub-part-4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/netherland-image.jpg');
     background-position: center;
     background-size: cover;
     border-radius: 20px;
-     height: 192px;
+    height: 192px;
     width: 300px;
     margin-top: 10px;
 }
 
 /* cards decoration */
 
-.destinations-section-items-1{
+.destinations-section-items-1 {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     padding: 20px;
 }
-.destinations-section-items-1 h3{
+
+.destinations-section-items-1 h3 {
     color: white;
     font-size: 25px;
 }
-.destinations-section-items-1 button{
+
+.destinations-section-items-1 button {
     border-radius: 10px;
     padding: 10px;
     color: black;
-    background-color: #e89656;
+     background-color: #ea9e64;
     border: none;
     font-weight: bold;
     margin-bottom: none;
+    cursor: pointer;
 }
+.destinations-section-items-1 button:hover{
+    background-color: darkorange;
+}
+
+.destinations-section-items-sub-part-1 h3 {
+    margin-top: 12px;
+    margin-left: 20px;
+    padding-top: 80px;
+    color: white;
+    font-size: 23px;
+}
+
+.destinations-section-items-sub-part-1 button {
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    background-color: #ea9e64;
+    border: none;
+    font-weight: bold;
+    margin-bottom: none;
+    cursor: pointer;
+}
+
+.destinations-section-items-sub-part-1 button:hover{
+    background-color: darkorange;
+}
+
