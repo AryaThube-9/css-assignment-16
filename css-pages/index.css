@@ -81,7 +81,7 @@
 
 .destinations-section-items-1{
     margin-top: 10px;
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../images/bg-image.jpg');   
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../images/kokan-image.jpg');   
     background-size: cover;
     background-position: center;
     border-radius: 20px;
@@ -91,7 +91,7 @@
 
 .destinations-section-items-sub-part-1{
      margin-top: 10px;
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../images/bg-image.jpg');   
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../images/karnataka-image.jpg');   
     background-size: cover;
     background-position: center;
     border-radius: 20px;
@@ -102,7 +102,7 @@
 
 .destinations-section-items-sub-part-2{
    margin-top: 10px;
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../images/bg-image.jpg');   
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../images/kochi.jpg');   
     background-size: cover;
     background-position: center;
     border-radius: 20px;
@@ -111,7 +111,7 @@
 }
 
 .destinations-section-items-sub-part-3{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/travel-iamge.jpg");
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../images/jaipur.jpg');
     background-position: center;
     background-size: cover;
     border-radius: 20px;
@@ -121,11 +121,33 @@
 }
 
 .destinations-section-items-sub-part-4{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/travel-iamge.jpg");
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../images/netherland-image.jpg');
     background-position: center;
     background-size: cover;
     border-radius: 20px;
      height: 192px;
     width: 300px;
     margin-top: 10px;
+}
+
+/* cards decoration */
+
+.destinations-section-items-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.destinations-section-items-1 h3{
+    color: white;
+    font-size: 25px;
+}
+.destinations-section-items-1 button{
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    background-color: #e89656;
+    border: none;
+    font-weight: bold;
+    margin-bottom: none;
 }
