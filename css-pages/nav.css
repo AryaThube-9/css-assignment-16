@@ -1,0 +1,52 @@
+body{
+    background-color: white;
+    margin: 0%;
+    padding: 0%;
+}
+.mian-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color:rgb(216, 156, 45);
+    
+}
+.img-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.main-class-logo{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border-color: 3px solid black;  
+}
+.img-container h2{
+    padding: 5px;
+    font-weight: 1000;
+    color: white;
+}
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.menu{
+    color: white;
+    text-decoration: none;
+}
+.menu:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.humburger img{
+    height: 40px;
+    display: none;
+    cursor: pointer;
+}
+
+.menu-toggle{
+    display: none;
+}
