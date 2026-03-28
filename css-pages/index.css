@@ -70,6 +70,7 @@
 }
 
 .destinations-section-heading {
+    margin-top: none;
     font-size: 40px;
 }
 
@@ -203,5 +204,53 @@
 }
 
 .destinations-section-items-sub-part-2 button:hover{
+    background-color: darkorange;
+}
+
+.destinations-section-items-sub-part-3 h3{
+    margin-top: 12px;
+    margin-left: 20px;
+    padding-top: 80px;
+    color: white;
+    font-size: 23px;
+}
+
+.destinations-section-items-sub-part-3 button {
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    background-color: #ea9e64;
+    border: none;
+    font-weight: bold;
+    margin-bottom: none;
+    cursor: pointer;
+}
+
+.destinations-section-items-sub-part-3 button:hover{
+    background-color: darkorange;
+}
+
+.destinations-section-items-sub-part-4 h3{
+    margin-top: 12px;
+    margin-left: 20px;
+    padding-top: 80px;
+    color: white;
+    font-size: 23px;
+}
+
+.destinations-section-items-sub-part-4 button {
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    background-color: #ea9e64;
+    border: none;
+    font-weight: bold;
+    margin-bottom: none;
+    cursor: pointer;
+}
+
+.destinations-section-items-sub-part-4 button:hover{
     background-color: darkorange;
 }
