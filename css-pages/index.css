@@ -6,7 +6,7 @@
     text-align: center;
     height: 500px;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url('../images/bg-image.jpg') no-repeat center/cover;
+    url('../images/bg-image.jpg') no-repeat center/cover;
     color: white;
 }
 
@@ -98,7 +98,6 @@
     border-radius: 20px;
     height: 190px;
     width: 300px;
-
 }
 
 .destinations-section-items-sub-part-2 {
@@ -149,13 +148,14 @@
     border-radius: 10px;
     padding: 10px;
     color: black;
-     background-color: #ea9e64;
+    background-color: #ea9e64;
     border: none;
     font-weight: bold;
     margin-bottom: none;
     cursor: pointer;
 }
-.destinations-section-items-1 button:hover{
+
+.destinations-section-items-1 button:hover {
     background-color: darkorange;
 }
 
@@ -179,11 +179,11 @@
     cursor: pointer;
 }
 
-.destinations-section-items-sub-part-1 button:hover{
+.destinations-section-items-sub-part-1 button:hover {
     background-color: darkorange;
 }
 
-.destinations-section-items-sub-part-2 h3{
+.destinations-section-items-sub-part-2 h3 {
     margin-top: 12px;
     margin-left: 20px;
     padding-top: 80px;
@@ -203,11 +203,11 @@
     cursor: pointer;
 }
 
-.destinations-section-items-sub-part-2 button:hover{
+.destinations-section-items-sub-part-2 button:hover {
     background-color: darkorange;
 }
 
-.destinations-section-items-sub-part-3 h3{
+.destinations-section-items-sub-part-3 h3 {
     margin-top: 12px;
     margin-left: 20px;
     padding-top: 80px;
@@ -227,11 +227,11 @@
     cursor: pointer;
 }
 
-.destinations-section-items-sub-part-3 button:hover{
+.destinations-section-items-sub-part-3 button:hover {
     background-color: darkorange;
 }
 
-.destinations-section-items-sub-part-4 h3{
+.destinations-section-items-sub-part-4 h3 {
     margin-top: 12px;
     margin-left: 20px;
     padding-top: 80px;
@@ -251,28 +251,32 @@
     cursor: pointer;
 }
 
-.destinations-section-items-sub-part-4 button:hover{
+.destinations-section-items-sub-part-4 button:hover {
     background-color: darkorange;
 }
 
 @media screen and (max-width: 768px) {
-    .hero-section-main-container{
+    .hero-section-main-container {
         display: flex;
         flex-direction: column;
     }
-    .img{
+
+    .img {
         height: 300px;
         width: 300px;
         margin-left: 5px;
     }
-    .heading{
+
+    .heading {
         margin-top: 1px;
     }
-    .destinations-section{
+
+    .destinations-section {
         display: flex;
         flex-direction: column;
     }
-    .destinations-section-container{
+
+    .destinations-section-container {
         display: flex;
         flex-direction: column;
         align-items: center;
