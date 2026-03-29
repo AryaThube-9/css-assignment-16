@@ -1,0 +1,71 @@
+.contact-page-container{
+    width:90%;
+    max-width:400px;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    margin: 100px;
+    margin-left: 39%;
+}
+
+.contact-page-container h2{
+    text-align:center;
+    margin-bottom:20px;
+    color:#0d47a1;
+}
+
+.input-group{
+    margin-bottom:15px;
+}
+
+.input-group input{
+    width:100%;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    outline:none;
+    font-size:14px;
+}
+
+.input-group textarea{
+    width:100%;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    outline:none;
+    font-size:14px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    border:none;
+    background-color: #ea9e64;
+    color:white;
+    font-size:16px;
+    border-radius:5px;
+    cursor:pointer;
+    transition:0.3s;
+    margin-top:20px ;
+}
+
+button:hover{
+    background-color: darkorange;
+}
+
+.contact-page-container a{
+    text-decoration: none;
+    color: black;
+    padding-left: 25%;
+    font-size: 19px;
+    
+}
+
+@media screen and (max-width:768px) {
+    .contact-page-container{
+        height: auto;
+       margin-left: auto;
+       width: auto;
+    }
+}
