@@ -17,7 +17,7 @@
     box-shadow: 0px 0px 9px 0px  black;
 }
 
-@media screen and (max-height:768px) {
+@media screen and (max-width: 768px) {
 
     .gallery-image-container{
         display: flex;
